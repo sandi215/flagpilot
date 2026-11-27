@@ -49,7 +49,7 @@ node flagpilot.mjs plan "Compare the signup form: three-field vs six-field, succ
 node flagpilot.mjs apply --dry-run         # see what WOULD be created, create nothing
 node flagpilot.mjs apply --approve --mock  # create it in the mock backend
 node flagpilot.mjs status --experiment 1003 --mock
-npm test                                    # 7 tests, zero dependencies
+npm test                                    # 8 tests, zero dependencies
 ```
 
 Judges: `demo --mock` is the whole story in one command. No API key, no
