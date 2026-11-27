@@ -1,0 +1,1 @@
+{"bin":{"flagpilot":"./flagpilot.mjs"},"description":"Turn a feature request into a Flagsmith multivariate experiment — with a human approval gate. Toggle Wars (Flagsmith) Track 2 entry.","engines":{"node":">=20"},"license":"MIT","name":"flagpilot","scripts":{"demo":"node flagpilot.mjs demo --mock --approve","test":"node --test test/test.mjs"},"type":"module","version":"0.1.0"}
